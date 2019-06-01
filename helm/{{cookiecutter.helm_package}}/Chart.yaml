@@ -1,0 +1,4 @@
+apiVersion: v1
+description: {{cookiecutter.helm_description}}
+name: {{cookiecutter.helm_package}}
+version: 0.1.0
