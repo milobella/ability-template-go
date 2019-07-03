@@ -1,5 +1,5 @@
 # {{cookiecutter.project_title}}
-{{cookiecutter.project_descripton}}
+{{cookiecutter.project_description}}
 
 ## Features
 >
@@ -32,5 +32,5 @@ $ bin/ability
 >
 
 ## CHANGELOGS
-- [Application changelog](./CHANGELOG.md)
-- [Helm chart changelog](./helm/ability-cinema/CHANGELOG.md)
+- [Application changelog](CHANGELOG.md)
+- [Helm chart changelog]({{cookiecutter.repository_name}}/helm/ability-cinema/CHANGELOG.md)

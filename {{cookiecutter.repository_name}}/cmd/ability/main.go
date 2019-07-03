@@ -50,12 +50,12 @@ func init() {
 func main() {
 
 	// Initialize server
-	server := ability.NewServer("{{cookiecutter.verbose_name}}", viper.GetInt("server.port"))
-	server.RegisterIntentRule("{{cookiecutter.default_intent}}", {{cookicutter.default_intent_handler}})
+	server := ability.NewServer("{{cookiecutter.project_title}}", viper.GetInt("server.port"))
+	server.RegisterIntentRule("DEFAULT_INTENT", DefaultIntentHandler)
 	server.Serve()
 }
 
-func {{cookicutter.default_intent_handler}}(_ *ability.Request, resp *ability.Response) {
+func DefaultIntentHandler(_ *ability.Request, resp *ability.Response) {
 	// Build the NLG answer
 	resp.Nlg.Sentence = "I don't know how to do this for the moment."
 }
