@@ -33,4 +33,4 @@ $ bin/ability
 
 ## CHANGELOGS
 - [Application changelog](CHANGELOG.md)
-- [Helm chart changelog]({{cookiecutter.repository_name}}/helm/ability-cinema/CHANGELOG.md)
+- [Helm chart changelog]({{cookiecutter.repository_name}}/helm/{{cookiecutter.helm_package}}/CHANGELOG.md)
