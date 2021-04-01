@@ -1,7 +1,5 @@
 {
   "project_title": "Change It",
   "project_description": "Change the verbose description",
-  "helm_package": "ability-{{ cookiecutter.project_title|lower|replace(' ', '') }}",
-  "repository_name": "{{ cookiecutter.project_title|lower|replace(' ', '') }}-ability",
-  "docker_repository": "celiangarcia/{{ cookiecutter.repository_name }}"
+  "repository_name": "{{ cookiecutter.project_title|lower|replace(' ', '') }}-ability"
 }
