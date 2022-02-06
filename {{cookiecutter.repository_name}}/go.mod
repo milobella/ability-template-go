@@ -1,7 +1,7 @@
 module github.com/milobella/{{cookiecutter.repository_name}}
 
-go 1.16
+go 1.17
 
 require (
-	github.com/milobella/ability-sdk-go v0.4.2
+	github.com/milobella/ability-sdk-go v0.5.0
 )
