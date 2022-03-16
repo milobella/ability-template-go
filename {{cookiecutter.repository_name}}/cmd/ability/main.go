@@ -4,7 +4,6 @@ import (
 	"github.com/milobella/ability-sdk-go/pkg/ability"
 )
 
-// fun main()
 func main() {
 	// Read configuration
 	conf := ability.ReadConfiguration()
